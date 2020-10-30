@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?1g06cs');
+  src:  url('fonts/icomoon.eot?1g06cs#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1g06cs') format('truetype'),
+    url('../fonts/icomoon.woff?1g06cs') format('woff'),
+    url('../fonts/icomoon.svg?1g06cs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-accusoft:before {
+  content: "\e900";
+  color: #ff7e4a;
+}
+.icon-ansible:before {
+  content: "\e901";
+  color: #e00;
+}
+.icon-apacheflink:before {
+  content: "\e902";
+  color: #e6526f;
+}
+.icon-bitcoin:before {
+  content: "\e903";
+  color: #f7931a;
+}
+.icon-library:before {
+  content: "\e921";
+}
+.icon-file-text:before {
+  content: "\e922";
+}
